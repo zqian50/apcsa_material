@@ -1,6 +1,6 @@
 # Art using Java
 
-** The goal of this homework is to practice the git commands and the basic structure of a Java program. **
+**The goal of this homework is to practice the git commands and the basic structure of a Java program.**
 
 In your assignments repo:
 
