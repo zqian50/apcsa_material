@@ -9,5 +9,5 @@ In your assignments repo:
 * Your program should do the following:
     * Print your name "My name is YOUR_NAME"
     * Print your age "I am YOUR_AGE years old"
-    * Print a message about your ASCII art "I draw a DRAWING_NAME"
+    * Print a message about your ASCII art "I am drawing a DRAWING_NAME"
     * Draw your ASCII art using System.out.println() - > Do something different from your classwork
