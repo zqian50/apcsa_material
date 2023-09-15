@@ -14,10 +14,10 @@ Output:
 
 10 + 12 = 22
 
-3.Create a file TrickyCalc.java and copy the following code inside. Run the program. Create a file answers.txt or answers.md and respond to the following questions:
+3. Create a file TrickyCalc.java and copy the following code inside. Run the program. Create a file answers.txt or answers.md and respond to the following questions:
    
-    * What do you notice about the mySum value?
-    * What is the value of checkResult, and why do we get that result?
+* What do you notice about the mySum value?
+* What is the value of checkResult, and why do we get that result?
 
 ```
 public class TrickyCalc{
