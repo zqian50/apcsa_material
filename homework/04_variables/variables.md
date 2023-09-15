@@ -5,11 +5,13 @@ Go inside the folder homework, and create a folder 04_variables. Inside this fol
 1. Write a Java program (Temperature.java) to convert temperature from Fahrenheit to Celsius degrees. You must use variables.
    
 Output:
+
 50.0 degrees Fahrenheit is equal to 10.0 Celsius
 
 3. Write a Java program (Calculator.java) that calculates the sum of two numbers (int or double).
 
 Output:
+
 10 + 12 = 22
 
 4. Create a file TrickyCalc.java and copy the following code inside. Run the program. Create a file answers.txt or answers.md and respond to the following questions:
