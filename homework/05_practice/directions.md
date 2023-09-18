@@ -1,4 +1,4 @@
-# Data Types and Variables
+# Practice data types, expressions
 
 Go inside the folder homework, and create a folder 05_practice. Inside this folder, you will write the following programs:
 
