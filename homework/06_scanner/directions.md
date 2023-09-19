@@ -23,6 +23,9 @@ How much does a triple scoop cost?
 27.00
 
 Dinner: $37.89
-Laser Tag: $35.0    
+
+Laser Tag: $35.0  
+
 Ice cream: $36.0
+
 Grand Total: $108.89
