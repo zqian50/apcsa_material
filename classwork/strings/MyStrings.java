@@ -23,7 +23,7 @@ public class MyStrings
        
        // Get and print the word people
         
-       // Get and print the last three characters of str
+       // Get and print the last three characters of msg
 
        System.out.println("firstSubs: " + firstSubs);
        System.out.println("secondSubs: " + secondSubs);
