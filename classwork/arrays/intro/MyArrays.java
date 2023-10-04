@@ -6,7 +6,7 @@ public class MyArrays
         
         // 1. Declare an int array with 10 default values
 
-        // 2. Insert the values into the array at indices 0 to 8
+        // 2. Insert values (any) into the array at indices 0 to 8
         // Think: how can you insert the values without writting 9 lines of code
         
         // 3. Set the value 1000 at index 2. Set the value -20 at index 3
@@ -22,8 +22,7 @@ public class MyArrays
         /****** MAKE A DOUBLE ARRAY WITH 10 ITEMS ******/
         // 1. Declare a double array with 10 default values
         
-        // 2.Set the values at indices 0 and 9 with any value
-        
+        // 2.Set any values at indices 0 and 9
 
         // 3. Get the value at index 0 and print it out. What is the value? Why?
 
