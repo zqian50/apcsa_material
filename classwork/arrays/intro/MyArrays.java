@@ -24,9 +24,8 @@ public class MyArrays
         
         // 2.Set the values at indices 0 and 9 with any value
         
-        // 3. Get the value at index 0 and print it out. What is the value?
 
-        // 4. Get the value at index 0 and print it out. What is the value? Why?
+        // 3. Get the value at index 0 and print it out. What is the value? Why?
 
         /******* MAKE A STRING ARRAY WITH 10 SLOTS  ******/
         // 1. Make an array with 10 initial value
