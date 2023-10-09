@@ -1,3 +1,5 @@
+## Manipulating 2D Arrays
+
 The last element in each array in a 2D array is incorrect. It’s your job to fix each array so that the value 0 is changed to the correct value.
 
 In the first array, the final value should be the length of the 2D array.
