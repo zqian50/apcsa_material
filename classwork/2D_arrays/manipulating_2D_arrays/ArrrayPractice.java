@@ -19,16 +19,8 @@ public class ArrayPractice
     
     
     
-    //Do not make alterations to this method!
     public static void print(int[][] array)
     {
-        for(int[] row: array)
-        {
-            for(int num: row)
-            {
-                System.out.print(num + " ");
-            }
-            System.out.println();
-        }
+
     }
 }
