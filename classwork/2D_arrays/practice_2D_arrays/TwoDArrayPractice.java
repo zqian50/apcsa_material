@@ -32,7 +32,7 @@ public class TwoDArrayPractice
 
      Examples:
 
-      String[][] result = fillRowMajor("Happy Halloween", 3, 4);
+      String[][] result = fillRows("Happy Halloween", 3, 4);
       
       result (after method call):
       "H"     "a"     "p"     "p"
@@ -40,7 +40,7 @@ public class TwoDArrayPractice
       "l"     "l"     "o"     "w"
       
       
-      String[][] result = fillRowMajor("hello", 3, 4);
+      String[][] result = fillRows("hello", 3, 4);
       
       result (after method call):
       "h"     "e"     "l"     "l"
@@ -49,7 +49,7 @@ public class TwoDArrayPractice
 
      */
   
-    public static String[][] fillRowMajor(String str, int rows, int cols)
+    public static String[][] fillRows(String str, int rows, int cols)
     {
         return null; 
     }
