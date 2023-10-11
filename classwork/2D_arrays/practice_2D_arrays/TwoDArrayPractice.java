@@ -14,15 +14,17 @@ public class TwoDArrayPractice
     {
         // Yor code here
     }
-    
+
+  
     /**
-     * Swaps all values in the specified 2 columns of mat.
+     * Swaps all values in the specified 2 columns of array.
      */
     public static void colSwap(int[][] array, int colAIndex, int colBIndex)
     {
         // Your code her
     }
-    
+
+  
     /*
      * Returns an array with the specified number of rows and columns
      * containing the characters from str in row-major order. If str.length()
@@ -44,11 +46,10 @@ public class TwoDArrayPractice
       
       result (after method call):
       "h"     "e"     "l"     "l"
-      "o"     "nul"     "nul"     null
+      "o"     null    null    null
       null    null    null    null
 
      */
-  
     public static String[][] fillRows(String str, int rows, int cols)
     {
         return null; 
