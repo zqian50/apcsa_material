@@ -3,7 +3,11 @@ public class TwoDArrayPractice
 
   public static void main(String[] args)
     {
-      // Create test cases here
+      // Create test cases here.
+      
+      // Print the status of your 2D array before and after
+      // invoking a method. You will need to add a print() method
+      // to avoid duplicated code in your main.
     }
 
   
@@ -52,6 +56,7 @@ public class TwoDArrayPractice
      */
     public static String[][] fillRows(String str, int rows, int cols)
     {
-        return null; 
+        return null; // replace this with your 2D array
     }
+  
 }    
