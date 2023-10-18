@@ -5,3 +5,4 @@ We have to implement a class Point, which fields represent a 2D coordinate (x, y
 1. How many instance variable are needed? Private or Public?
 2. What constructors should be needed?
 3. What methods do you think should be needed?
+4. Would it be possible to make the Point class immutable? If so, how?
