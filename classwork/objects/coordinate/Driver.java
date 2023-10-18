@@ -3,7 +3,8 @@ public class Driver{
   // Additional methods not shown
   
   public static void main(String[] args){
-    Point point1 = new Point(1, 5);
+    
+    // Point is a class that represents a 2D coordinate
     Point point2 = new Point(2, 8);
     System.out.println(distance(point1, point2));
     System.out.println(Point.distance(point1, point2));
