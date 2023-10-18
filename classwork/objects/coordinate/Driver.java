@@ -5,6 +5,7 @@ public class Driver{
   public static void main(String[] args){
     
     // Point is a class that represents a 2D coordinate
+    Point point1 = new Point(4, 6);
     Point point2 = new Point(2, 8);
     System.out.println(distance(point1, point2));
     System.out.println(Point.distance(point1, point2));
