@@ -1,9 +1,11 @@
 public class Fraction
 {
+    private int numerator;
+    private int denominator;
 
-  // Instance variables
-
-  // Constructor
+    public Fraction(int numerator, int denominator){
+      
+    }
 
 	/**
 	* Returns value of numerator
