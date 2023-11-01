@@ -24,7 +24,7 @@ Throws an IndexOutOfBoundsException when the index is negative or the index is a
 
 - Create a method that takes an integer as a parameter and throws an exception if the number is odd.
   
-- Create a method tat takes an array of integer as a parameter and throws and exception if there is any negative number.
+- Create a method that takes an array of integer as a parameter and throws and exception if there is any negative number.
 
 - What is wrong with the following code? Why it is showing compilation error?
   
