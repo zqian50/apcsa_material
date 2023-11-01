@@ -49,7 +49,7 @@ public class JavaExceptionHandlingQuiz
 ```
 - What will be the output of the following program?
 
-  ```
+```
 public class JavaExceptionHandlingQuiz 
 {
     public static void main(String[] args) 
