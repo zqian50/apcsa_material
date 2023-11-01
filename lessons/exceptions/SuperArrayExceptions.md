@@ -1,4 +1,4 @@
-#Practice Exceptios with SuperArray
+## Practice Exceptios with SuperArray
 
 ### SuperArrray(int initialCapacity)
 
@@ -23,5 +23,54 @@ Throws an IndexOutOfBoundsException when the index is negative or the index is a
 ## Practice Exceptions:
 
 - Create a method that takes an integer as a parameter and throws an exception if the number is odd.
-- 
+  
 - Create a method tat takes an array of integer as a parameter and throws and exception if there is any negative number.
+
+- What is wrong with the following code? Why it is showing compilation error?
+  
+```
+public class JavaExceptionHandlingQuiz 
+{
+    public static void main(String[] args) 
+    {
+        try
+        {
+            System.out.println("Try Block");
+        }
+         
+        System.out.println("-----");
+         
+        catch (Exception e) 
+        {
+            System.out.println("Catch Block");
+        }
+    }
+}
+```
+- What will be the output of the following program?
+
+  ```
+public class JavaExceptionHandlingQuiz 
+{
+    public static void main(String[] args) 
+    {
+        int i = 1;
+         
+        try
+        {
+            i++;
+        }
+        catch (Exception e) 
+        {
+            i++;
+        }
+        finally
+        {
+            i++;
+        }
+         
+        System.out.println(i);
+    }
+}
+```
+
