@@ -22,7 +22,7 @@ Dollars: 67
 Cents: 78
 ```
 
-### Guess the number
+### Guess the number (Extremes)
 
 The Extremes class represents the range of Integer values.
 
