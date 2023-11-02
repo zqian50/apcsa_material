@@ -27,9 +27,30 @@ Cents: 78
 The Extremes class represents the range of Integer values.
 
 Fill in the Extremes methods. In the constructor, set min and max to the minimum and maximum value of Integer. Use Integer.MIN_VALUE and Integer.MAX_VALUE. Also fill in the MinDiff and MaxDiff methods to return the difference between the users guess and the actual max/min values of Integer.
-Run
 
-In run, use the comments as a guide to ask the user to guess the maximum and minimum values. Compute the difference between the guess and the values, then print it out.
+Drive: use the comments as a guide to ask the user to guess the maximum and minimum values. Compute the difference between the guess and the values, then print it out.
+
+```
+
+        
+        // Create an Extremes object
+        
+        
+        // Ask the user to guess the maximum value of an Integer
+        
+        
+        // Compute and display the difference
+        // between the max and the guess
+        
+        
+        // Ask the user to guess the minimum value of an Integer
+        
+        
+        // Compute and display the difference 
+        // between the min and the guess
+        
+
+```
 
 Be aware that if you choose a number too big or too small, it will cause an error since the number cannot be stored.
 
