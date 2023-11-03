@@ -13,6 +13,6 @@
          // Print number of matched pairs
          // System.out.println("The number of matched pairs is: " + list.numMatches());
          
-         // ADD MORE TEST CASES
+         // ADD MORE TEST CASES (at least 2 more)
      }
  }
