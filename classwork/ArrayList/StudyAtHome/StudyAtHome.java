@@ -4,6 +4,8 @@ public class StudyAtHome
 {
    public static void main(String[] args)
    {
+      // YOU MAY REMOVE MY CODE FOR ARRAY AFTER YOU CREATE YOUR ARRAYLIST.
+      
        // Rewrite this code using an ArrayList instead of an array
        String[] toDoList = new String[3];
        toDoList[0] = "Review the lessons";
