@@ -14,9 +14,13 @@ same name will be grouped together and can appear in any order within the group.
 following code segment.
 
 ClimbingClub hikerClub = new ClimbingClub();
+
 hikerClub.addClimb("Monadnock", 274);
+
 hikerClub.addClimb("Whiteface", 301);
+
 hikerClub.addClimb("Algonquin", 225);
+
 hikerClub.addClimb("Monadnock", 344);
 
 When the code segment has completed execution, the instance variable climbList would contain the
@@ -66,6 +70,6 @@ public int distinctPeakNames()
   return numNames;
 }```
 
-a) Does this implementation of the distinctPeakNames method work as intended when the
+Does this implementation of the distinctPeakNames method work as intended when the
 addClimb method stores the ClimbInfo objects in alphabetical order by name as described in
 part (1)?  Yes/No and why? Write your response to this question in file answer.txt or answer.md or answer.pdf.
