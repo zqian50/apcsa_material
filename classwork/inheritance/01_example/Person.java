@@ -7,8 +7,6 @@ public class Person {
         address = addr;
     }
 
-    public Person () {}
-
     public String getFirstName () {
         return firstName;
     }
