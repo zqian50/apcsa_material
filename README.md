@@ -1,1 +1,0 @@
-# apcsa_material
