@@ -15,7 +15,7 @@ The Book class will have a title and author as instance variables. The construct
 
 ```public Book(String title, String author)```
 
-It should also have a toString method that prints
+It should also have a toString method that returns
 
 ```Book: TITLE```
 
@@ -32,7 +32,7 @@ public TextBook(String title, String author,
 
 The ebook field needs a getter named isEbook.
 
-It should also override the toString method to print
+It should also override the toString method to return
 
 ```Textbook edition # EDITION```
 
@@ -47,7 +47,7 @@ public Novel(String title, String author,
             int readingLevel, String genre)
 ```
 
-It should also override the toString method to print
+It should also override the toString method to return
 
 ```GENRE Novel```
 
@@ -55,6 +55,6 @@ where GENRE is replaced with the genre of the book.
 
 ### Driver
 
-In the tDriver you must create an ArrayList that will store all the books in your library. Then create your library by adding at least 2 textbooks and 2 novels to the ArrayList.
+In the Driver you must create an ArrayList that will store all the books in your library. Then create your library by adding at least 2 textbooks and 2 novels to the ArrayList.
 
 After creating your library, use a loop to access the ArrayList and print out the object and any information you have access to.
