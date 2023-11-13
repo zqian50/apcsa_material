@@ -55,6 +55,6 @@ where GENRE is replaced with the genre of the book.
 
 ### Driver
 
-In the tDriver you must create an ArrayList that will store all the books in your library. Then create your library by adding at least 3 textbooks and 3 novels to the ArrayList.
+In the tDriver you must create an ArrayList that will store all the books in your library. Then create your library by adding at least 2 textbooks and 2 novels to the ArrayList.
 
 After creating your library, use a loop to access the ArrayList and print out the object and any information you have access to.
