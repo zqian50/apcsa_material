@@ -11,6 +11,7 @@ new RationalNumber(0,5) will print as "0"
 
 new RationalNumber(10,5) will print as "2"
 
+
 Ignore divide by 0 by making any RationalNumber with a denominator of 0 become: numerator 0 denominator 1 (or 0/1), which would print as "0"
 new RationalNumber(5,0) will print as "0"
 
