@@ -57,14 +57,14 @@ public class RealNumber{
     return 0;
   }
 
-/**
-*@return true if and only if the other parameter
-  has the same value as this.
-  hint: you should use getValue() 
-*/
-public boolean equals(RealNumber other){
-  //complete this method
-  return true;
-}
+  /**
+  *@return true if and only if the other parameter
+    has the same value as this.
+    hint: you should use getValue() 
+  */
+  public boolean equals(RealNumber other){
+    //complete this method
+    return true;
+  }
 
 }
