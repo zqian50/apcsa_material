@@ -3,6 +3,7 @@
 Classes to be implemented:
 
 **RealNumber:** is meant to store double values and might have rounding errors.
+
 **RationalNumber:** is meant to store two int values, and can be printed like a fraction, and compared to each other with no rounding errors.
 
 new RationalNumber(5,10) will print as: "1/2"
