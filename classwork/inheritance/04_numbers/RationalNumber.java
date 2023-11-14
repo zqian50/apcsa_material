@@ -122,4 +122,13 @@ public class RationalNumber extends RealNumber
     //COMPLETE THIS METHOD
     return null;
   }
-}
+
+  /**
+  *@return true when the RationalNumbers are both 0, or they have the same numerators and denominators, 
+  *false otherwise.
+  *note, this is NOT an override. If you use equals on a RealNumber that is the other method.
+  */
+  public boolean equals(RationalNumber other)
+    //COMPLETE THIS METHOD
+    return false;
+  }
