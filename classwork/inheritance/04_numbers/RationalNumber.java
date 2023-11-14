@@ -6,8 +6,7 @@ public class RationalNumber extends RealNumber
   *  When the denominator is negative, negate both numerator and denominator.
   *  This handles all cases including if both are negative.
   *  When the denominator parameter is 0, make the fraction 0/1 regardless of the 
-  *  numerator. This is not mathematically correct, but we can decide on the behavior to 
-  *  avoid issues.
+  *  numerator. 
   *  All RationalNumbers must reduce() upon construction.
   *@param nume the numerator
   *@param deno the denominator
