@@ -130,5 +130,5 @@ public class RationalNumber extends RealNumber
   */
   public boolean equals(RationalNumber other)
     //COMPLETE THIS METHOD
-    return false;
+    return true;
   }
