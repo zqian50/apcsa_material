@@ -1,4 +1,5 @@
 import java.io.File;  // Import the File class
+import java.io.FileWriter; //Import the FileWriter class
 import java.io.IOException;  // Import the IOException class to handle errors
 import java.io.FileNotFoundException; // Import the FileNotFoundException class to handle errors
 import java.util.Scanner; // Import the Scanner
@@ -7,6 +8,7 @@ public class MyFiles {
   public static void main(String[] args) {
   	createFile();
   	readFile();
+  	writeFile();
   }
   
   public static void createFile() {
@@ -22,6 +24,21 @@ public class MyFiles {
       e.printStackTrace();
     }
   }
+  
+  
+
+  public static void writeFile() {
+    try {
+      FileWriter myWriter = new FileWriter("writeme.txt");
+      myWriter.write("This is a test.\nAnother test.");
+      myWriter.close();
+      System.out.println("Successfully!!!");
+    } catch (IOException e) {
+      System.out.println("Error!!!");
+      e.printStackTrace();
+    }
+  }
+
   
   public static void readFile() {
     try {
