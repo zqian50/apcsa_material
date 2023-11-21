@@ -9,8 +9,6 @@
 
 * Required: Work on part 1 problems of days 1, 2, 3, 6.
 
-* Required: Choose at least one part 2 problem of days 1, 2, 3, 6.
-
-* Optional: You may complete as many problems as you would like. 
+* Optional: Choose at least one part 2 problem of days 1, 2, 3, 6. Or any other harder problem/s.
 
 ### HAVE FUN!!!
