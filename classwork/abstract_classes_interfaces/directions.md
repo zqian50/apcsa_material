@@ -18,7 +18,6 @@ Respond to the following questions, and save your answers in a txt, md, docx, pd
 
 1. Did you get an error executing the getArea() method? Yes/No why? If yes, fix it and explain why your solution will work.
 2. Try instantiating an object as an instance of the abstract class Shape. Did you get an error? Yes/No why?  
-3. Try to create an object as an instance of the abstract Shape. Did you get an error? Why?
 
 Let's add an interface on top of the abstract Shape:
 ```
