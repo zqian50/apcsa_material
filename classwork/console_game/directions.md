@@ -11,8 +11,23 @@ Example:
 
 ![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/e13f82b2-85d9-481e-bd8d-242bb9a30035)
 
-### Player class:
-What are some things that all types of players must have as their properties? Focus on big ideas about the player itself, not items or possessions. 
+### Player class (superclass):
+* What are some things that all types of players must have as their properties? Focus on big ideas about the player itself, not items or possessions. 
 
 ### Subclasses:
+
+* Design 3 subclasses using any theme you wish.
+
+* Does not have to be fantasy or anything common in games. Contemporary jobs are fine too! What attributes/fieds or actions/methods might be required now?
+
+* The subclasses can override the attack method, as well as add new attributes. Attributes like mana would be added to magical characters, while a Barbarian might have a new attribute for their level of rage .
+
+* There are many groups of jobs in different settings
+
+    * Warrior / Wizard / Archer
+    * Soldier / Spy / Politician
+    * Princess / Pony / Monster
+    * Others
+ 
+Are we going to use the superclass to instanciate objects?
 
