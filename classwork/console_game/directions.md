@@ -19,9 +19,9 @@ Example:
 
 * Design 3 subclasses using any theme you wish.
 
-* Does not have to be fantasy or anything common in games. Contemporary jobs will be fine. What attributes/fieds or actions/methods might be required now?
+* Does not have to be fantasy or anything common in games. What attributes/fieds or actions/methods might be required now?
 
-* The subclasses can override the attack method as well as add new attributes. Attributes like mana would be added to magical characters, while a Barbarian might have a new attribute for their level of rage .
+* The subclasses can override the attack method as well as add new attributes. Attributes like mana would be added to magical characters, while a Barbarian might have a new attribute for their level of rage.
 
 * There are many groups of jobs in different settings
 
@@ -36,6 +36,6 @@ Are we going to use the superclass to instantiate objects?
 
 * Use the code provided for the superclass Adventurer.
 * Implement one subclass of Adventurer and test it with a driver. You must implement all abstract methods.
-* In the driver, the players should be declared as Adventurer and instantiated as the subclass (Adventurer player1 = new Warrior("Bob", 10);).
+* In the driver, the player should be declared as Adventurer and instantiated as the subclass (Adventurer player1 = new Warrior("Bob", 10);).
 * Your player has some HP (health points) values at the beginning of the game.
 * Your attack/support/special methods return Strings because you want the option of printing the text of what happened.
