@@ -4,7 +4,7 @@
 * Design a game where a player can have a different job/role.
 * Choosing a different job will alter how the player can play the game and what specific things they can do.
 * All kinds of players will have some common characteristics. Having a common class will help to represent this behavior.
-* Job/role is called "class" in these kinds of, but we will not use that term.
+* Job/role is called "class" in these kinds of games, but we will not use that term.
 
 ![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/53bbe3cd-604e-464c-88a3-eb37a78af754)
 
