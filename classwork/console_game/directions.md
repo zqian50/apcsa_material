@@ -1,7 +1,7 @@
 ## Console Game
 
 * This project must be saved in your assignments repo => classwork/xx_console_game/your_files_here (replace xx with the corresponding classwork number).
-* Design a game where A player can have a different job/role.
+* Design a game where a player can have a different job/role.
 * Choosing a different job will alter how the player can play the game and what specific things they can do.
 * All kinds of players will have some common characteristics. Having a common class will help to represent this behavior.
 * Job/role is called "class" in these kinds of, but we will not use that term.
