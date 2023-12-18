@@ -31,3 +31,11 @@ Example:
  
 Are we going to use the superclass to instanciate objects?
 
+### Let's start
+
+* Use the code provided for the superclass Adventurer.
+* Implement one subclass of adventurer and test it with a driver. You must implement all abstract methods.
+* In the driver, the players should be declared as Adventurer and instantiated as the subclass (Adventurer player1 = new Warrior("Bob", 10);).
+* Your player has some HP (heath points) values at the beginnig of the game.
+* Your attack/support/special methods return Strings because you want the option of printing the text of what happened.
+
