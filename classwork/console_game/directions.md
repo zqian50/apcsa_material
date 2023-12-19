@@ -62,5 +62,3 @@ Are we going to use the superclass to instantiate objects?
 * Now if the opponent is still alive (HP > 0) have the computer randomly choose to have the opponent attack/special attack the player, or buff themselves.
 * Print the results of the action.
 * Repeat this process until one Adventurer is dead (0 or fewer HP), then print the results of the fight. If the user quits, do not print the winner.
-
-Printing should just keep scrolling the terminal, that is totally fine for now.
