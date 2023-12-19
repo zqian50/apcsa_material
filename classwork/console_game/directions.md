@@ -1,5 +1,7 @@
 ## Console Game
 
+### Day 1
+
 * This project must be saved in your assignments repo => classwork/xx_console_game/your_files_here (replace xx with the corresponding classwork number).
 * Design a game where a player can have a different job/role.
 * Choosing a different job will alter how the player can play the game and what specific things they can do.
@@ -39,3 +41,9 @@ Are we going to use the superclass to instantiate objects?
 * In the driver, the player should be declared as Adventurer and instantiated as the subclass (Adventurer player1 = new Warrior("Bob", 10);).
 * Your player has some HP (health points) values at the beginning of the game.
 * Your attack/support/special methods return Strings because you want the option of printing the text of what happened.
+
+### Day2
+
+* Look at the sample subclass MyWarrior and compare it to your subclass. What is different? What is the same?
+
+* How your game will interact with the user? 
