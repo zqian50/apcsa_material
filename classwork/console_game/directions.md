@@ -54,7 +54,7 @@ Are we going to use the superclass to instantiate objects?
 * Create two Adventurer objects player and enemy.
 * Prompt the user: a job/rol.
 * Print the names, HP, and SpecialResource(quantity+name) of both the player and enemy.
-* Prompt the user: "Type: (a)ttack / (sp)ecial / (su)pport" / quit
+* Prompt the user: "Type: attack / special / support / quit
 * The user can type a/attack to select attack, or type sp/special to do a special attack, or su/support to support themselves. You then make the character use the appropriate action.
 * If the user types quit, end the program.
 * If an invalid response is typed, ask again until the response is valid.
