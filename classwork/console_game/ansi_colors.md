@@ -21,6 +21,7 @@ The ANSI codes for color work as follows:
 Putting a color code after the escape code will change the color of your text. 
 
 Example:
+```
 
 System.out.print("\u001b[31mRed");
 
@@ -29,6 +30,7 @@ System.out.print("I am red");
 System.out.print("\u001b[35mPurple");
 
 System.out.print("I am purple");
+```
 
 The background color of a letter can be changed, too!
 
