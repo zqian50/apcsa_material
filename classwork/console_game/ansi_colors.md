@@ -47,8 +47,14 @@ For example, a red letter is [31m, so a red background is [41m.
 
 ## Others ANSI codes
 
+Reset screen back to normal: "\u001b[0m"
+
+You can also bold and underline text, using [1m for bold, [4m for underline, and [7m for “inverse” text (switch foreground and background colors).
+
 public static final String CLEAR_SCREEN =  "\u001b[2J";
+
 public static final String HIDE_CURSOR =  "\u001b[?25l";
+
 public static final String SHOW_CURSOR =  "\u001b[?25h";
 
 
