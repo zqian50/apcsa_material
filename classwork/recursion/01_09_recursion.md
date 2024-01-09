@@ -43,6 +43,6 @@ What is the largest number such that fibonacci(number) fits in an int? (does not
 
 Is Fibonacci efficient with recursion?
 
-![image](https://github.com/novillo-cs/apcsa_material_private/assets/123229891/15c3d314-deb7-4258-9181-7d06b2a07288)
+![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/9746e09c-be9a-49ba-a6ea-f6f0d485b6e2)
 
 
