@@ -18,7 +18,7 @@ Hint: an be solved using a head-and-tail algorithm, which consists of two parts:
 
 
 ```
-public void printString(String word){
+public static void printString(String word){
 
 }
 ```
@@ -34,7 +34,7 @@ What is the base case?
 What is the recursive case?
 
 ```
-public void printReverse(String word){
+public static void printReverse(String word){
 
 }
 ```
@@ -60,7 +60,7 @@ What is the base case?
 What is the recursive case?
 
 ```
-public int countChar(String word, char ch) {
+public static int countChar(String word, char ch) {
 
 }
 
