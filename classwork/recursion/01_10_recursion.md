@@ -7,7 +7,9 @@ Implement the following methods and save them here: xx_recursion/Strings.java
 Print each character of the string.
 
 What String method/s do you need?
+
 What is the base case?
+
 What is the recursive case?
 
 Hint: an be solved using a head-and-tail algorithm, which consists of two parts:
@@ -26,7 +28,9 @@ public void printString(String word){
 ### Print the string backward
 
 What String method/s do you need?
+
 What is the base case?
+
 What is the recursive case?
 
 ```
@@ -50,7 +54,9 @@ This method will have two parameters:
 The method should return an int, representing the number of occurrences of the target character in the string:
 
 What String method/s do you need?
+
 What is the base case?
+
 What is the recursive case?
 
 ```
