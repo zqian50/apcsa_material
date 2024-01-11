@@ -23,12 +23,15 @@ NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-
 - What is the recursive case?
 - What parameter must be sent in each recursive call?
 
-  ```
+```
 declare an integer variable 'result' to store total number of letters
+
 for each number from 1 to 1000
+
 	call recursive method numberToWords(number here), this return number in words
+ 
 	get th length of the word returned from the recursive method and add it to 'result'
-	```
+ ```
  
 
 ```
