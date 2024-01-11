@@ -24,7 +24,7 @@ NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-
 - What parameter must be sent in each recursive call?
 
 ```
-private static String numberToWords(int number) {
+public static String numberToWords(int number) {
 
 }
 ```
