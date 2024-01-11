@@ -12,6 +12,14 @@ NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-
 
 ### Think about the problem:
 
+First how can you implement this method to return the number in letters:
+
+```
+public static String numberToWords(int number) {
+
+}
+```
+
 - How can you have a reference to the numbers in words? Should these words be predefined?
 - How should the possible number cases be implemented?
     - Handling Hundreds: Greater than or equal to 100
@@ -23,6 +31,9 @@ NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-
 - What is the recursive case?
 - What parameter must be sent in each recursive call?
 
+
+Let's do it from 1-1000 to have the total number of letters in all those numbers:
+
 ```
 declare an integer variable 'result' to store total number of letters
 for each number from 1 to 1000
@@ -30,12 +41,6 @@ for each number from 1 to 1000
 	get th length of the word returned from the recursive method and add it to 'result'
  ```
  
-
-```
-public static String numberToWords(int number) {
-
-}
-```
 
 ### Debugging and Testing:
 
