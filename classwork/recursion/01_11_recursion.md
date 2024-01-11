@@ -26,7 +26,7 @@ public static String numberToWords(int number) {
     - Handling Tens: 20 to 99
     - Handling Teens: 10 to 19
     - Handling Ones:Less than 10
-- How can you check the value of the number in the recursive method? How to to decide whether to use the word for hundreds, tens, teens, or ones?
+- How can you check the value of the number in the recursive method? How to decide whether to use the word for hundreds, tens, teens, or ones?
 - What is the base case?
 - What is the recursive case?
 - What parameter must be sent in each recursive call?
@@ -38,7 +38,7 @@ Let's do it from 1-1000 to have the total number of letters in all those numbers
 declare an integer variable 'result' to store total number of letters
 for each number from 1 to 1000
 	call recursive method numberToWords(number here), this return number in words
-	get th length of the word returned from the recursive method and add it to 'result'
+	get the length of the word returned from the recursive method and add it to 'result'
  ```
  
 
