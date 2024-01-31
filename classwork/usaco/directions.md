@@ -1,5 +1,5 @@
 
-1. Read the bronze problem. You will need to read more than one time to understand the problem. 
+1. Read the bronze problem. You will need to read it multiple times to understand the problem. 
 2. Take notes while you read.
 3. Start thinking about the possible solution.
 4. Do not write any code.
