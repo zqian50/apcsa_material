@@ -66,9 +66,11 @@ row 4 :&nbsp;&nbsp;   2  2  8  8  2  2
   
 
 This yields a total aggregated depth of 66 inches. Calculate the volume by multiplying 66 x 6 feet x 6 feet = 66 inches x 72 inches x 72 inches = 342,144 cubic inches.
-1.3 program specifications
+
+### 3. Program specifications
 
 Write a program to automate this calculation.
+
 INPUT FORMAT:
 
 The name of a file with the following format:
