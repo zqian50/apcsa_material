@@ -56,11 +56,11 @@ If the final elevation of the lake is to be 22 inches, the pasture has these dep
 
 column:   1  2  3  4  5  6
 
-row 1 :&nbsp;&nbsp;   4  4  4 - - -
+row 1 :&nbsp;&nbsp;   4  4  4&nbsp;; -&nbsp; -&nbsp; -
 
-row 2 :&nbsp;&nbsp;   4  4  4  2 - -
+row 2 :&nbsp;&nbsp;   4  4  4  2&nbsp; -&nbsp; -
 
-row 3 :&nbsp;&nbsp;   4  4  4  2  2 -
+row 3 :&nbsp;&nbsp;   4  4  4  2  2&nbsp; -
 
 row 4 :&nbsp;&nbsp;   2  2  8  8  2  2
   
