@@ -1,9 +1,9 @@
-### Bronze
+# Bronze
 ## Cow Stomping / Lake Making
 
 **Problem 12:** Lake Making (Rob Kolstad, 2008)
 
-# 1. Description
+### 1. Description
 
 Farmer John wants his cows to help him make a lake. He has mapped the pasture where he wants to build the lake by creating an R (3 <= R <= 100) row by C (3 <= C <= 100) column grid of six foot by six foot squares and then by determining the average elevation (10 <= elev_rc <= 5000) in inches for each square.
 
@@ -11,7 +11,7 @@ Additionally, he has trained the cows in "stomp digging". The burly bovines trav
 
 Given an initial set of elevations, an ordered set of N (1 <= N <= 20000) stomp digging instructions, and an elevation E (0 <= E <= 5000) for the lake's final water level, determine the volume of water (in cubic inches) that the lake will hold. It is guaranteed that the answer will not exceed 2,000,000,000. Presume that the edge of the lake contains barriers so that water can not spill over the border.
 
-# 2 Example walkthrough
+### 2 Example walkthrough
 
 Consider a small 4 x 6 pasture to be turned into a lake. Its initial elevations (annotated with row/column numbers) are:
 
@@ -79,7 +79,7 @@ The name of a file with the following format:
 
 * Lines R+2..R+N+1: Line i+R+1 describes stomp-digging instruction i with three integers: R_s, C_s, and D_s
 
-SAMPLE INPUT (file makelake.in):
+**SAMPLE INPUT (file makelake.in):**
 
 4 6 22 2
 
@@ -95,9 +95,9 @@ SAMPLE INPUT (file makelake.in):
 
 1 1 10
 
-INPUT DETAILS: As per the example from the text.
+**INPUT DETAILS:** As per the example from the text.
 
-OUTPUT FORMAT:
+**OUTPUT FORMAT:**
 
 * Line 1: A single integer that is the volume of the new lake in cubic inches
 
