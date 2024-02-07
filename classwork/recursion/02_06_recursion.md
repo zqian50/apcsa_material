@@ -34,9 +34,6 @@ Since you can change the starting values of fib1 and fib2, be aware that this is
 
 When fib1 and fi2 are 1 and 0 the output of fibonacciIterative(n,fib1,fib2) will be the nth fibonacci number such that n=0 returns 0, n=1 returns 1, n=2 returns 1 etc.
 
-With a neighbor, draw on paper draw how fibIter(8,1,0) would calculate the correct result.
-
-Answer next to diagram in notes: How would a wrapper function call fibIter?
 
 ```
 fibonacciIterative(0, 1, 0) returns 0
