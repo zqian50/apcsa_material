@@ -31,6 +31,8 @@ The idea is to have two parameters fib1 and fib2 to store the previous two Fibon
 
 When fib1 and fib2 are 1 and 0 the output of fibonacciIterative(n, fib1, fib2) will be the nth fibonacci number such that n=0 returns 0, n=1 returns 1, n=2 returns 1 etc.
 
+This is a tail recursion which means there is no other operation to perform after executing the recursive function itself.
+
 Since you can change the starting values of fib1 and fib2, be aware that this is only a Fibonacci number when you start them at 1 and 0.
 
 When fib1 and fi2 are 1 and 0 the output of fibonacciIterative(n,fib1,fib2) will be the nth fibonacci number such that n=0 returns 0, n=1 returns 1, n=2 returns 1 etc.
@@ -40,13 +42,12 @@ When fib1 and fi2 are 1 and 0 the output of fibonacciIterative(n,fib1,fib2) will
 fibonacciIterative(0, 1, 0) returns 0
 fibonacciIterative(1, 1, 0) returns 1
 fibonacciIterative(2, 1, 0) returns 1
-fibonacciIterative(3, 1, 0) returns 1
 ...
 ```
 
-Work with a parter and draw how fibonacciIterative(5,1,0) would calculate the correct result.
+Work with a parter and explain how this recursive fibonacciIterative works. Write your notes in your notebook.
 
-Implement the following method. Remmber do not call fibonacciIterative more than once.
+After you discussion, implement the following method. Remmber do not call fibonacciIterative more than once.
 
 ```
 public static int fibonacciIterative(int n, int f1, int f2){
@@ -54,4 +55,4 @@ public static int fibonacciIterative(int n, int f1, int f2){
 }
 ```
 
-Take pictures of your trace and upload it here: classwork/xx_recursion/FibonacciIteractive/your_files_here
+Take pictures of your notes and upload it here: classwork/xx_recursion/FibonacciIteractive/your_files_here
