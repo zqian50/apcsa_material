@@ -42,6 +42,7 @@ When fib1 and fi2 are 1 and 0 the output of fibonacciIterative(n,fib1,fib2) will
 fibonacciIterative(0, 1, 0) returns 0
 fibonacciIterative(1, 1, 0) returns 1
 fibonacciIterative(2, 1, 0) returns 1
+fibonacciIterative(3, 1, 0) returns 2
 ...
 ```
 
