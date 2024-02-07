@@ -6,12 +6,13 @@ The following function must reverse a string ("hello" => "olleh"):
 public static String reverse(String s){}
 ```
 
-Work with a partner and solve this exercise on your notebook or use the whiteboard. You will respond to the following questions and make a trace that shows how the recursion works including the initial recursive call.
+Work with a partner and solve this exercise on your notebook or use the whiteboard. You will respond to the following questions and make a trace that shows how the recursion works including the initial call.
 
 * What is the base case?
 * What is the recursive case?
 * Make a trace that shows how the recursion works.
 * Can you solve the problem using a method with a different list of parameters? If so,
+  * What parameters would you need?
   * What would be the base case?
   * What would be the recursive case?
   * Make a trace to show how it works.
