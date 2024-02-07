@@ -56,4 +56,4 @@ public static int fibonacciIterative(int n, int f1, int f2){
 }
 ```
 
-Take pictures of your notes and upload it here: classwork/xx_recursion/FibonacciIteractive/your_files_here
+Take pictures of your notes and upload it here: classwork/xx_recursion/FibonacciIterative/your_files_here
