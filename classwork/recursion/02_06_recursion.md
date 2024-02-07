@@ -48,7 +48,10 @@ fibonacciIterative(2, 1, 0) returns 1
 
 Work with a parter and draw how fibIter(8,1,0) would calculate the correct result.
 
-Implement the following method. Remmber do not make more than one recursive call to fibonacciIterative
+Implement the following method. Remmber do not make more than one recursive call to fibonacciIterative.
+
+```
 public static int fibonacciIterative(int n, int f1, int f2){
   
 }
+```
