@@ -41,3 +41,10 @@ private void removeQueen(...){
 
 }
 ```
+
+Save your work here: classwork/xx_NQueens/your_files_here
+
+Include a txt, md, or pdf file with the answers to the questions (answers.md).
+
+Also include a java file with your code (NQueens.java)
+
