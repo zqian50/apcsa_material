@@ -12,7 +12,9 @@ Remember, you may place only 1 queen in each row, column, diagonal.
 
 ![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/ef5a1717-a71d-4fcd-9416-6d1f01e97b4a)
 
-- How would so solve this problem with recursive backtracking? How could you place the queens on the board making sure no queens will attach each other?
+- How would so solve this problem with recursive backtracking? Would you duplicate the entire board each time you make the recursive call?
+
+- How could you place the queens on the board making sure no queens will attach each other?
 
 - How can you indicate if a position on the board is safe to add a queen?
 
