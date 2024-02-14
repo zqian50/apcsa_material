@@ -16,13 +16,15 @@ Based on this logic, we do not care about threatened spots if they are in the sa
 
 ![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/79779889-cf66-4c87-9ed5-a583af093769)
 
-- How would so solve this problem with recursive backtracking? Would you duplicate the entire board each time you make the recursive call?
+- How would you solve this problem with recursive backtracking? Would you duplicate the entire board each time you make the recursive call?
 
 - How could you place the queens on the board making sure no queens will attach each other?
 
 - How can you indicate if a position on the board is safe to add a queen?
 
 - Write a detailed pseudocode for the methods addQueen(...) and removeQueen(...)
+
+- You may represent a queen with -1. Safe spots with 0. Threatened spots >= 1.
 
 ### Methods that could be added to your code
 
@@ -48,6 +50,7 @@ private void removeQueen(...){
 ```
 
 Respond to the questions here: classwork/xx_NQueens/answers.md (txt or pdf)
+
 Write the pseudocode here:  classwork/xx_NQueens/pseudocode.md (txt or pdf)
 
 
