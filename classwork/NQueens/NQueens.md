@@ -12,11 +12,11 @@ Remember, you may place only 1 queen in each row, column, diagonal.
 
 ![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/ef5a1717-a71d-4fcd-9416-6d1f01e97b4a)
 
-- How would so solve this problem with recursive backtracking? How could yo place the queens on the board making sure no queens will attach each other?
-
-- How the recursion would work in your solution?
+- How would so solve this problem with recursive backtracking? How could you place the queens on the board making sure no queens will attach each other?
 
 - How can you indicate if a position on the board is safe to add a queen?
+
+- Write a detailed pseudocode for the methods addQueen(...) and removeQueen(...)
 
 ### Methods that could be adede to your code
 
@@ -26,7 +26,6 @@ Remember, you may place only 1 queen in each row, column, diagonal.
 *@precondition r and c are valid indices of the board array
 *@postcondition the board is only changed when the function returns true
 * in which case the queen is added and all it's threatened positions are incremented.
-* Only the squares below the current row should be marked as threatened.
 */
 private boolean addQueen(...){
 
