@@ -18,7 +18,7 @@ Remember, you may place only 1 queen in each row, column, diagonal.
 
 - Write a detailed pseudocode for the methods addQueen(...) and removeQueen(...)
 
-### Methods that could be adede to your code
+### Methods that could be added to your code
 
 ```
 /**
@@ -41,9 +41,8 @@ private void removeQueen(...){
 }
 ```
 
-Save your work here: classwork/xx_NQueens/your_files_here
+Respond to the questions here: classwork/xx_NQueens/answers.md (txt or pdf)
+Write the pseudocode here:  classwork/xx_NQueens/pseudocode.md (txt or pdf)
 
-Include a txt, md, or pdf file with the answers to the questions (answers.md).
 
-Also, include a java file with your code (NQueens.java)
 
