@@ -6,7 +6,7 @@ N queens must be placed on a NxN chessboard so that no queen can attack any othe
 
 ![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/f37a7fa2-6f40-4017-98ae-753b6fd3b7ae)
 
-Remember, you may place only 1 queen in each row, column, siagonal.
+Remember, you may place only 1 queen in each row, column, diagonal.
 
 ![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/4608d6e6-560f-4fe4-9323-164502db8947)
 
