@@ -1,4 +1,6 @@
-## N-Queens
+# N-Queens
+
+## Day 1
 
 ### Problem
 
@@ -54,4 +56,53 @@ Respond to the questions here: classwork/xx_NQueens/answers.md (txt or pdf)
 Write the pseudocode here:  classwork/xx_NQueens/pseudocode.md (txt or pdf)
 
 
+## Day 2
+
+### Implementation
+
+- Create a class NQueens (NQueens.java)
+- There must be an instance variable board[][] which is a 2D array of integers.
+- A queen should be represented with a -1.
+- Squares that are not safe to place a queen must be represente with the number of queens threatening the square.
+- Calculate squares that are not safe below each queen.
+- Write methods addQueen and removeQueen
+
+```
+Given: int[][] board = new int[4][4];
+
+addQueen(0,0,board);
+
+[-1 0 0 0]
+[ 1 1 0 0]
+[ 1 0 1 0]
+[ 1 0 0 1]
+
+```
+
+
+```
+addQueen(1,2,board);
+
+[-1 0  0 0]
+[ 1 1 -1 0]
+[ 1 1  2 1]
+[ 2 0  1 1]
+
+```
+
+- Write the method toString()
+
+```
+/**
+*@return The output string formatted as follows:
+*All numbers that represent queens are replaced with 'Q'
+*all others are displayed as underscores '_'
+*There are spaces between each symbol:
+_ _ Q _
+Q _ _ _
+_ _ _ Q
+_ Q _ _
+*/
+public String toString(){}
+```
 
