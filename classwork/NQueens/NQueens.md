@@ -71,7 +71,7 @@ Write the pseudocode here:  classwork/xx_NQueens/pseudocode.md (txt or pdf)
 ```
 Given: int[][] board = new int[4][4];
 
-addQueen(0,0,board);
+addQueen(0,0);
 
 [-1 0 0 0]
 [ 1 1 0 0]
@@ -82,7 +82,7 @@ addQueen(0,0,board);
 
 
 ```
-addQueen(1,2,board);
+addQueen(1,2);
 
 [-1 0  0 0]
 [ 1 1 -1 0]
