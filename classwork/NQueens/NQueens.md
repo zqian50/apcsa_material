@@ -66,6 +66,7 @@ Write the pseudocode here:  classwork/xx_NQueens/pseudocode.md (txt or pdf)
 - Squares that are not safe to place a queen must be represente with the number of queens threatening the square.
 - Calculate squares that are not safe below each queen.
 - Write methods addQueen and removeQueen
+- Create a Driver.java to test your methods.
 
 ```
 Given: int[][] board = new int[4][4];
