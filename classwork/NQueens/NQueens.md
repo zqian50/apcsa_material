@@ -109,7 +109,7 @@ public String toString(){}
 
 ## Day 3
 
-You must implement a method solve(int row) method that returns when it finds the first solution.
+You must implement a method solve(int row) that returns when it finds the first solution.
 
 You must have a solve() wrapper method that calls solve(0) to start the recursion on the starting row. (Your recursion increments the row).
 
