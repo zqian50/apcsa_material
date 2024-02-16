@@ -114,3 +114,5 @@ You must implement a method solve(int row) method that returns when it finds the
 You must have a solve() wrapper method that calls solve(0) to start the recursion on the starting row. (Your recursion increments the row).
 
 A wrapper method is used to support recursion. This method will not actually perform recursion but will call one that does. The wrapper method may: Validate parameters.
+
+You must clear the board before attempting to solve.
