@@ -135,7 +135,7 @@ Add the following instance variables and methods to your file:
 
 ```public void setAnimate(boolean newValue)``` => It sets the animated variable to the newValue received as parameter.
 
-```public void setDelay(int newValue)``` => It sets the delay variable to the newValue received as parameter. Any value less than 0 should set to 0
+```public void setDelay(int newValue)``` => It sets the delay variable to the newValue received as parameter. Any value less than 0 should set to 0.
 
 #### Part 1
 
