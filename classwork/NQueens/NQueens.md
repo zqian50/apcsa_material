@@ -109,10 +109,57 @@ public String toString(){}
 
 ## Day 3
 
-You must implement a method solve(int row) that returns when it finds the first solution.
+You must implement a method ```solve(int row)``` that returns when it finds the first solution.
 
-You must have a solve() wrapper method that calls solve(0) to start the recursion on the starting row. (Your recursion increments the row).
+You must have a ```solve()``` wrapper method that calls ```solve(0)``` to start the recursion on the starting row. (Your recursion increments the row).
 
 A wrapper method is used to support recursion. This method will not actually perform recursion but will call one that does. The wrapper method may: Validate parameters.
 
 You must clear the board before attempting to solve.
+
+You must implement a method ```countSolutions(int row)``` that returns the total number of solutions found.
+
+You must have a ```countSolutions()``` wrapper method that calls ```countSolutions(0)``` to start the recursion on the starting row. (Your recursion increments the row).
+
+## Day 4
+
+### Animation (Optional)
+
+Animation is optinal for this lab.
+
+Add the following instance variables and methods to your file:
+
+```private boolean animated``` => It is false by default, but when it changes to true solve will print the animation. Otherwise, nothing will be printed.
+
+```private int delay``` => It is the wait time in your animation. The default value is 1000.
+
+```public void setAnimate(boolean newValue)``` => It sets the animated variable to the newValue received as parameter.
+
+```public void setDelay(int newValue)``` => It sets the delay variable to the newValue received as parameter. Any value less than 0 should set to 0
+
+#### Part 1
+
+- You will need the Text.java file provided.
+
+- Add the following code after a queen has been successfully added. You may also add it after removing a queen:
+
+```
+if(animated){
+  Text.go(1,1);
+  System.out.println(this);
+  Text.wait(delay);
+}
+```
+
+- Add the following code in your main:
+
+```
+NQueens queens = new NQueens(8);
+queens.setAnimate(true);
+System.out.println(Text.CLEAR_SCREEN);
+System.out.println(Text.HIDE_CURSOR);
+Text.go(1,1);
+queens.solve()
+System.out.println(Text.RESET);
+```
+
