@@ -163,3 +163,52 @@ queens.solve()
 System.out.println(Text.RESET);
 ```
 
+### Part 2
+
+Add the board size and the wait time for animation as arguments when running your NQueens program.
+
+**Examples:**
+
+```java Driver``` It will solve and print the solution to an 8x8 board.
+
+```java Driver 4``` It will solve and print the solution to a 4x4 board.
+
+```java Driver 5 1000``` It will animate the solving of a 5x5 board.
+
+How to use it:
+
+```
+int size = 8;
+
+if(args.length > 0){
+  size = Integer.parseInt(args[0]);
+}
+NQueens queens = new NQueens(size);;
+if(args.length > 1){
+  queens.setAnimate(true);
+  queens.setDelay(Integer.parseInt(args[1]));
+}
+System.out.println(Text.CLEAR_SCREEN);
+System.out.println(Text.HIDE_CURSOR);
+Text.go(1,1);
+queens.solve();
+System.out.println(Text.RESET);
+Text.go(1,1);
+System.out.println(queens);
+```
+
+Number of solutions for N Queens
+
+N | Solutions
+------------- | -------------
+1  | 1
+2  | 0
+3  | 0
+4  | 2
+5  | 10
+6  | 4
+7  | 40
+8  | 92
+9  | 352
+10  | 724
+
