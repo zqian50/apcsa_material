@@ -150,10 +150,10 @@ public void addSE() {
  * from the current position ensuring that dead ends are reached.
  */
 public void carveMaze(int row, int col) {
-  // base case
+  // Base Case
   // if (row, col) is a border, space or it has more than 1 adjacent spot with spaces => return true
 
-  // recursive case
+  // Recursive Case
   // Change spot at (row, col) to a space
   // Define an array or ArrayList with directions
   // For each direction randomly selected => call carveMaze in that direction
