@@ -69,3 +69,82 @@ The recursive solve method takes a row and col position.
 - All visited spots that were not part of the solution are changed to '.'
 - All visited spots that are part of the solution are changed to '@'
 
+## Day 3
+
+#### Some other test cases
+
+The solution for the following maze is 2. There should not be explored spots that are not part of the solution (no '.').
+
+```
+#######
+###E###
+### ###
+#E S E#
+### ###
+###E###
+#######
+```
+
+The solution for the following maze should be either 2 or 6. There should not be explored spots that are not part of the solution (no '.').
+```
+#######
+#S    #
+# ### #
+#E###E#
+#######
+```
+
+#### Animation
+
+When you modify the maze by adding '@' and '.', you may add the following code:
+
+```
+if (animate) {
+    gotoTop();
+    clearTerminal();
+    System.out.println(this);
+    wait(200);
+}
+```
+
+#### Color your output with this command
+
+```
+java Driver | sed -e 's/#/\x1b[47;39m#\x1b[39;49m/g' -e 's/@/\x1b[33m@\x1b[39;49m/g' -e 's/\./\x1b[49;32m\.\x1b[39;49m/g'
+```
+
+#### Carve a maze
+
+Given a maze with only walls. You must carve a sequence of paths. Please follow these directions:
+
+- Add a new constructor to your Maze.java, where you create a maze with only walls.
+- Your constructor call the method carveMaze(row, column) and then place one 'S' and one 'E'.
+
+**How to carve the maze?**
+
+You must randomize the moves in the different directions, but you should not use the same directions twice.
+
+For example, you may:
+
+- Generate a random array cosidering 4 possible moves and loop through that array. 
+- Generate an array with 4 posible moves, and remove those in a random order.
+
+```
+public Maze(int rows, int cols){
+  maze = new char[rows][cols];
+  for(char[]row:maze){
+    for(int i = 0; i < row.length;i++){
+      row[i]='#';
+    }
+  }
+  carveMaze(1,1);
+  addSE();
+}
+
+public void addSE() {
+}
+
+// Recursion will end when there are no more valid directions left to explore from the current position, ensuring that dead ends are reached.
+public void carveMaze(int row, int col) {
+}
+```
