@@ -141,10 +141,21 @@ public Maze(int rows, int cols){
   addSE();
 }
 
+
 public void addSE() {
 }
 
-// Recursion will end when there are no more valid directions left to explore from the current position, ensuring that dead ends are reached.
+
+/* Recursion will end when there are no more valid directions left to explore
+ * from the current position ensuring that dead ends are reached.
+ */
 public void carveMaze(int row, int col) {
+  // base case
+  // if (row, col) is a border, space or it has more than 1 adjacent spot with spaces => return true
+
+  // recursive case
+  // Change spot at (row, col) to a space
+  // Define an array or ArrayList with directions
+  // For each direction randomly selected => call carveMaze in that direction
 }
 ```
