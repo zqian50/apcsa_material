@@ -151,7 +151,7 @@ public void addSE() {
  */
 public void carveMaze(int row, int col) {
   // Base Case
-  // if (row, col) is a border, space or it has more than 1 adjacent spot with spaces => return true
+  // if (row, col) is a border, space or it has more than 1 adjacent spot with spaces => return
 
   // Recursive Case
   // Change spot at (row, col) to a space
