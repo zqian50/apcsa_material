@@ -1,6 +1,6 @@
 ## Partition
 
-### Whe does your method end, swap the pivot to the correct position and return this position?
+When does your method end, swap the pivot to the correct position and return this position?
 
 ### Test your method
 
