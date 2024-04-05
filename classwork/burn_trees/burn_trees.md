@@ -4,10 +4,6 @@
 
 Consider a forest that is made up of a NxN grid, and that some percentage of the spaces of the grid are randomly filled with trees. You must light the trees on fire, and see how long the fire will burn. The starting position of the trees is randomized, so each run will have a differnet number of rounds before the fire burns out completely. You must calculate the number of rounds of burn time for a particular forest.
 
-## Simulation
-
-Start the simulation by setting the fire to the leftmost column of trees in the forest (second grid in the example).
-
 ### Specifications
 
 - There are 4 states for a square: empty, tree, fire, ash.
@@ -17,6 +13,11 @@ Start the simulation by setting the fire to the leftmost column of trees in the 
 - Empty spaces and ash cannot catch fire.
 
 The effect is that fire will expand by one square each round. Eventually the fire will stop burning because there are no more trees adjacent to the existing fire.
+
+
+## Simulation
+
+Start the simulation by setting the fire to the leftmost column of trees in the forest (second grid in the example).
 
 ## Example
 
