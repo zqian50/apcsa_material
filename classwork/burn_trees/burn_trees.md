@@ -20,9 +20,10 @@ The effect is that fire will expand by one square each round. Eventually the fir
 
 ## Example
 
-![image](https://github.com/novillo-cs/apcsa_material_private/assets/123229891/e89ec4a2-0c44-434c-b801-7bdcc97264c0)
+![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/33e5be10-92a9-462b-886e-465be77fb801)
+![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/7ef196b7-c5e3-417f-975a-fda6aa4abdd6)
 
-![image](https://github.com/novillo-cs/apcsa_material_private/assets/123229891/5d8738fd-2729-4e97-b67f-be21a143e84d)
+
 
 ## Adjustments
 
