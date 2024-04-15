@@ -1,4 +1,4 @@
-public class Heap{
+public class MyHeap{
         private int[] heap;
         private int size;
         private int maxsize;
