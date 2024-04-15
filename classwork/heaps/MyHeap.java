@@ -22,7 +22,7 @@ public class MyHeap{
         }
         
         private int rightChild(int pos) {
-            // RETURN POSITION LEFTCHILD
+            // RETURN POSITION RIGHTCHILD
             return 0 ;
         }
         
