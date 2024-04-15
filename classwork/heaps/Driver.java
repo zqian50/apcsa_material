@@ -3,7 +3,7 @@ public class Driver{
     public static void main(String[] arg)
     {
       	// This is a max heap
-        MyHeap heap = new MyHeap(14, True);
+        MyHeap heap = new MyHeap(14, true);
         heap.insert(10);
         heap.insert(7);
         heap.insert(26);
