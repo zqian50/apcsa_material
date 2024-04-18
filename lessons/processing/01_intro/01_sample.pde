@@ -3,8 +3,6 @@ int x, y;
 void setup(){
   size(800, 600);
   
-  
-
   x = 180;
   y = 190;
 
