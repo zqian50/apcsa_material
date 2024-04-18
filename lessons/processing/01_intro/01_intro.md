@@ -6,7 +6,7 @@ Processing is a programming language based on Java.
 
 In the lab: Open a terminal, type processing and press enter.
 
-At home: [Download](https://www.google.com) and install processsing depending on your OS and how you install it, you will have a shourtcut or your will run it using the terminal (./processing).
+At home: [Download](https://processing.org/download) and install processsing depending on your OS and how you install it, you will have a shourtcut or your will run it using the terminal (./processing).
 
 ## Documentation
 
