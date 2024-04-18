@@ -30,8 +30,12 @@ void draw(){}
 void method1(){}
 
 ...
+
 ```
 
+### draw():
+
+The draw() function continuously executes the lines of code contained inside its block until the program is stopped or noLoop() is called. draw() is called automatically and should never be called explicitly.
 ## Fist Program
 
 ### Sketch:
