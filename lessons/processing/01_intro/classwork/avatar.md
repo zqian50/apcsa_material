@@ -1,3 +1,10 @@
+Create an avatar and implement 4 animations:
+
+- Reset
+- Bounce
+- Radom
+- Mouse
+
 ```
 int x, y, animation;
 
