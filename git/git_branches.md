@@ -6,7 +6,8 @@ Git allows you to create branches. A branch is a separate version of the main li
 
 Each branch can have its own commits, allowing you to work on multiple features or fixes simultaneously without affecting the main codebase.
 
-![image](https://github.com/novillo-cs/apcsa_material_private/assets/123229891/efd599ba-7078-412e-b08a-21621626bf4c)
+![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/182d35d6-911a-4523-8514-5efed7da5d0d)
+
 
 
 ## Create a branch
@@ -112,7 +113,8 @@ This exercise should be completed with a parter.
 
 1. One student create a repo and add their parter as collaborator.
    
-   ![image](https://github.com/novillo-cs/apcsa_material_private/assets/123229891/2c86933e-a453-4281-9bed-7b8c8f10fc3e)
+![image](https://github.com/novillo-cs/apcsa_material/assets/123229891/2153ed16-1891-422f-a64e-1af2d01f0b12)
+
 
 2. Create a file (any format) the goal is to get familiar with branches and fixing conflicts.
 3. Both students should clone the repo and create a branch for themselves (use your name as the branch name).
