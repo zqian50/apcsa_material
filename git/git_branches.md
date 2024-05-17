@@ -107,6 +107,14 @@ git commit -a -m "merge conflicts fixed"
 git push
 ```
 
+## Tutorials
+
+https://www.w3schools.com/git/git_branch.asp
+
+https://www.w3schools.com/git/git_branch_merge.asp
+
+https://learngitbranching.js.org/
+
 ## Let's practice
 
 This exercise should be completed with a parter.
